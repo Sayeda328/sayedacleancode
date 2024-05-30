@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BANK form</title>
+</head>
+<body>
+
+    <div>
+        
+        <h1> BANK Login form </h1>
+        <form action="/login" method="post">
+        <div>
+        <label for="Name">Name:</label></br>
+        <input type="text" placeholder="Enter your Name"/></br>
+        </div>
+        <div>
+            <label for="Account no">Account no</label></br>
+            <input type="number" placeholder="Enter your Account no"/></br>
+        </div>
+        
+            <p>Gender</p>
+            <input type="radio" id="male" name="gender" value="male"></label>
+            <label for="male">Male</label></br>
+            <input type="radio" id="female" name="gender" value="female"></label>
+            <label for="female">Female</label></br>
+        
+            <div>
+                <label for="ageinput">Age:</label></br>
+                <input type="number" placeholder="Enter Age" id="ageinput" name="ageinput" min="18" max="99"/></br>
+            </div>
+        
+        <div>
+        <label for="Email">Email:</label></br>
+        <input type="Email" placeholder="Enter your Email"/></br>
+        </div>
+        <div>
+        <label for="Password">Password:</label></br>
+        <input type="password" placeholder="Enter your password"/></br>
+        </div>
+        <p>city:</p>
+        <select>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Gujrath">Gujrath</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+      
+        <div>
+            <button type="submit">Login</button>
+        </div>
+       
+    
+
+        
+     </form>
+    </div>
+</body>
+</html>

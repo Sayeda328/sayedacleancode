@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+       <!-- random page -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+          <!-- i am random -->
+
+    </head>
+    <body>
+        <div class="main" >
+            
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="Logo" width="30" height="24"
+                            class="d-inline-block align-text-top">
+                      IMAGE GALLERY
+                    </a>
+                </div>
+            </nav>
+            <div id="content">
+          
+            <h1>WELCOME TO THE IMAGE GALLERY</h1>
+        
+                    <h3>Photography Website</h3>
+                    
+                 
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?nature,water
+                " alt="nature image" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Photo One</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?nature,flowers" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Photo Two</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?nature,trees" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Photo Three</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/1600x900/?forest,greens" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Photo Four</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/1600x900/?mountains,trees" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Photo Five</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/1600x900/?nature,clouds" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Photo Six </h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/1600x900/?underwater,animals" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Photo Seven</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/1600x900/?village,markets" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Photo Eight</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/1600x900/?city,streets" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Photon Nine</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?nature,animals" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Photo Ten</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+       
+         <footer>
+            <h3>Get In Touch</h3>
+            <p>Email or call us to set up a consult</p>
+            <p>Email: <strong>contact@myphotographyproject.imagegallery</strong></p>
+            <p>Phone:
+                <a href="+3595555555">
+                    <strong>(+359) 555-5555</strong>
+                </a>
+            </p>
+        </footer>
+    
+        </div>
+        </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

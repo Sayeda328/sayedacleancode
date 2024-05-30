@@ -1,0 +1,1 @@
+const{name, age, gender, location} = person1;
